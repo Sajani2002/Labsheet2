@@ -16,8 +16,8 @@ object TheaterProfitCalculator {
   }
 
   def main(args: Array[String]): Unit = {
-    println(s"Profit for ticket price 10: Rs.${profit(25)}")
-    println(s"Profit for ticket price 15: Rs.${profit(30)}")
-    println(s"Profit for ticket price 20: Rs.${profit(35)}")
+    println(s"Profit for ticket price 20: Rs.${profit(20)}")
+    println(s"Profit for ticket price 25: Rs.${profit(25)}")
+    println(s"Profit for ticket price 30: Rs.${profit(30)}")
   }
 }
